@@ -18,12 +18,12 @@
 #  }
 #
 class spacewalk::repo::server (
-  $spacewalk_repo_enabled   = '0',
+  $spacewalk_repo_enabled   = '1',
   $spacewalk_repo_gpgcheck  = '1',
   $spacewalk_repo_release   = '2.5',
   $spacewalk_repo_gpgkey    = 'https://copr-be.cloud.fedoraproject.org/archive/spacewalk/RPM-GPG-KEY-spacewalk-2015',
 
-  $jpackage_repo_enabled    = '1',
+  $jpackage_repo_enabled    = '0',
   $jpackage_repo_gpgcheck   = '1',
   $jpackage_repo_mirrorlist = 'http://www.jpackage.org/mirrorlist.php?dist=generic&type=free&release=5.0',
   $jpackage_repo_baseurl    = 'absent',
