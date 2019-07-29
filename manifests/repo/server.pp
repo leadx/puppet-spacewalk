@@ -18,7 +18,7 @@
 #  }
 #
 class spacewalk::repo::server (
-  $spacewalk_repo_enabled   = '1',
+  $spacewalk_repo_enabled   = '0',
   $spacewalk_repo_gpgcheck  = '1',
   $spacewalk_repo_release   = '2.5',
   $spacewalk_repo_gpgkey    = 'https://copr-be.cloud.fedoraproject.org/archive/spacewalk/RPM-GPG-KEY-spacewalk-2015',
